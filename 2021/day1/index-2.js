@@ -33,7 +33,7 @@ const checkIncrease = (pos) => {
 reader.readCases().then(lines => {
 
 
-    for (let i = 0; i < lines.length; i++) {
+    for (let i = 0; i <= lines.length; i++) {
         let pos = i % 3;
         let value = parseInt(lines[i]);
 
@@ -50,7 +50,7 @@ reader.readCases().then(lines => {
 
     }
 
-    console.log(increases);
+    console.log(increases + 1);
 })
 
 
